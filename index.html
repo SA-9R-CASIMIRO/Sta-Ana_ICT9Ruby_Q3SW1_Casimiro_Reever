@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q3 Seatwork 1</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <style>
+        body{
+            font-family: Rockwell;
+            }
+        kbd,p{
+            font-size: 50px;
+            }
+        img{
+            height: 150px;
+            width: 140px;
+        }
+        a{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        #audiowideFont{
+            font-family: 'Audiowide', sans-serif;
+        }
+
+    </style>
+</head>
+
+<body class="bg-info text-light">
+<br><br>
+    
+<div class="container">
+
+    <center>
+   
+    <img src="WWE MONEY GIF MEME.gif" alt="Wwe money gif animation!">
+    <br><br>
+
+    <div class="col-md-12">
+        <h2 id="audiowideFont">PHP Currency Converter</h2>
+        <kbd id="amount"></kbd>
+    </div>
+
+    <script>
+        var php = 100; // given value in peso
+        document.getElementById("amount").textContent = php; // Dynamically set the value inside <kbd>
+    </script>
+
+    </center>
+
+    <br>
+
+    <center>     
+    <div class="col-md-12">
+        <p id="display"></p>
+        <br>
+       
+        <button id="audiowideFont" type="button" class="btn btn-primary" onclick="var php = 100; var euro = 0.055; document.getElementById('display').innerHTML= '<kbd>' + (php * euro).toFixed(2) + '</kbd>';">Euro</button>
+        <button id="audiowideFont" type="button" class="btn btn-warning" onclick="var php = 100; var yen = 7.29; document.getElementById('display').innerHTML= '<kbd>' + (php * yen).toFixed(2) + '</kbd>';">Yen</button>
+    </div>
+    </center>
+</div>
+
+    <br>
+
+    <center>
+    <div class="col-md-12">
+        <a href="index.html"><button class="btn btn-success btn-lg">Refresh</button></a>
+    </div>
+   </center>
+
+</body>
+</html>
